@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>SharpOS_Plugs</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\SharpOS-Metal\SharpOS-Metal.csproj" NoWarn="NU1604;NU1605" />
+	</ItemGroup>
+</Project>
